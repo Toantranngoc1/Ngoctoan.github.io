@@ -1,5 +1,5 @@
 {
-  "name": "canibeyourdeer",
+  "name": "loveminhtus",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trunnghieu/CanIbeyourdeer.git"
+    "url": "git+https://github.com/Toantranngoc1/Ngoctoan.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/trunnghieu/CanIbeyourdeer/issues"
+    "url": "https://github.com/Toantranngoc1/Ngoctoan.github.io/issues"
   },
-  "homepage": "https://github.com/trunnghieu/CanIbeyourdeer#readme",
+  "homepage": "https://github.com/Toantranngoc1/Ngoctoan.github.io#readme",
   "dependencies": {
     "firebase": "^9.6.7"
   }
