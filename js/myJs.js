@@ -53,15 +53,15 @@ const textConfig = {
   text4: "Nếu gặp nhau ở một thời điểm khác trong đời, anh vẫn muốn được quen em",
   text5: "Không",
   text6: "Có",
-  text7: "Tâm sự gì thì bỏ vào đây nhé",
+  text7: "Giáng sinh vui vẻ nha bé iu. Tâm sự gì thì bỏ vào đây nhé",
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   text11:
-  // 'Anh biết em là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay anh nhắc em rằng dù thế nào đi nữa, anh cũng sẽ không để em một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc anh vô tình làm em buồn hay giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với em lâu nhất có thể. Wo hui yiqi zai zheli.'
-  'Hello, muốn làm cho chị một ít niềm vui những lúc tâm trạng chị không được tốt. Trước khi quen nhau đã từng thấy chị mạnh mẽ hơn những người con gái em từng biết, dẫu vậy em vẫn muốn được che chở cho bạn gái mình. Em biết chuỗi ngày vừa qua không phải là khoảng thời gian thảnh thơi của chị, trời đêm 8 độ ở Melbourne cũng có thể khiến chị thấy cô đơn hơn. Vì thế em ở đây để nhắc nhở chị rằng có một người luôn sẵn sàng ở cạnh chị những lúc mọi thứ xung quanh có khắc nghiệt với chị thế nào. Bạn ấy cũng luôn nỗ lực để kéo gần lại khoảng cách 7.800km của hai đứa, cả hiện tại và trong tương lai. Vì bạn ấy thấy rằng bạn gái đã cố gắng cho mối quan hệ đầu tiên như thế, bản thân cũng không thể giảm bớt yêu thương được. \nNhắc nhở nhỏ: Nụ cười ban nãy của chị vẫn xinh để khiến em đổ như ngày mới crush. Cố gắng giữ nụ cười như thế đến ngày tụi mình gặp nhau nhé. Em sẽ không để tình mình là những nỗi buồn đâu. Thương chị ❤️',
-  text12: "Thăm bạn trai",
-};
+    'Hello bé người yêu của anh, anh biết chuỗi ngày vừa qua là quãng thời gian khó khăn đối với em và sắp tới cũng sẽ càng khó khăn hơn. Những lúc trời lạnh dưới âm độ thì càng cảm thấy mệt mổi hơn nữa hì. Vì vậy những lúc như thế trang web này sẽ thay anh nhắc em rằng dù thế nào đi nữa, anh cũng sẽ không để em một mình, vẫn sẽ luôn có người bên cạnh bé cho dù mọi thứ xung quanh có khắc nghiệt vói em. Đi kèm niềm vui tất nhiên sẽ có lúc anh vô tình làm em buồn hay giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Tụi mình hãy cùng nỗ lực vì nhau nhé. Giáng sinh vui vẻ và gửi lời chúc đến gia đình bé nhá. Thương bé ❤️',
+  //'Hello, muốn làm cho chị một ít niềm vui những lúc tâm trạng chị không được tốt. Trước khi quen nhau đã từng thấy chị mạnh mẽ hơn những người con gái em từng biết, dẫu vậy em vẫn muốn được che chở cho bạn gái mình. Em biết chuỗi ngày vừa qua không phải là khoảng thời gian thảnh thơi của chị, trời đêm 8 độ ở Melbourne cũng có thể khiến chị thấy cô đơn hơn. Vì thế em ở đây để nhắc nhở chị rằng có một người luôn sẵn sàng ở cạnh chị những lúc mọi thứ xung quanh có khắc nghiệt với chị thế nào. Bạn ấy cũng luôn nỗ lực để kéo gần lại khoảng cách 7.800km của hai đứa, cả hiện tại và trong tương lai. Vì bạn ấy thấy rằng bạn gái đã cố gắng cho mối quan hệ đầu tiên như thế, bản thân cũng không thể giảm bớt yêu thương được. \nNhắc nhở nhỏ: Nụ cười ban nãy của chị vẫn xinh để khiến em đổ như ngày mới crush. Cố gắng giữ nụ cười như thế đến ngày tụi mình gặp nhau nhé. Em sẽ không để tình mình là những nỗi buồn đâu. Thương chị ❤️',
+  text12: "Hun người eo",
+}
 
 $(document).ready(function () {
   // process bar
@@ -84,7 +84,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/main_pic_1.jpeg",
+      imageUrl: "img/main_pic.JPG",
       imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
@@ -213,7 +213,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/hieeu1.7/";
+            window.location = "https://www.facebook.com/toantranngoc1999";
           },
         })
       }
